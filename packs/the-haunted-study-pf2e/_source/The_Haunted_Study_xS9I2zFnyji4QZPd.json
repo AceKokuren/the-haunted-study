@@ -17,7 +17,7 @@
       "navOrder": 0,
       "navName": "Study",
       "background": {
-        "src": "my-stuff/maps/The_Haunted_Study.png",
+        "src": "modules/the-haunted-study/media/images/study.webp",
         "scaleX": 1,
         "scaleY": 1,
         "offsetX": 0,
@@ -29,9 +29,9 @@
       "height": 1600,
       "padding": 0.25,
       "initial": {
-        "x": null,
-        "y": null,
-        "scale": null
+        "x": 1920,
+        "y": 1080,
+        "scale": 0.25
       },
       "backgroundColor": "#999999",
       "grid": {
@@ -93,7 +93,7 @@
       "tiles": [
         {
           "texture": {
-            "src": "my-stuff/tiles/Curtains_Closed_Top_Tile.png",
+            "src": "modules/the-haunted-study/media/images/tiles/Curtains_Closed_Top_Tile.webp",
             "scaleX": 1,
             "scaleY": 1,
             "tint": null,
@@ -165,7 +165,7 @@
         },
         {
           "texture": {
-            "src": "my-stuff/tiles/Curtains_Closed_Bottom_Tile.png",
+            "src": "modules/the-haunted-study/media/images/tiles/Curtains_Closed_Bottom_Tile.webp",
             "scaleX": 1,
             "scaleY": 1,
             "tint": null,
@@ -499,7 +499,8 @@
       "sort": 0,
       "ownership": {
         "default": 0,
-        "5k04nXA5TjLcrFit": 3
+        "5k04nXA5TjLcrFit": 3,
+        "taH2Rt1bM5s9hS6j": 3
       },
       "flags": {
         "pf2e": {
@@ -515,11 +516,11 @@
         "systemVersion": "5.6.2",
         "coreVersion": "11.313",
         "createdTime": 1697121492735,
-        "modifiedTime": 1697121908290,
-        "lastModifiedBy": "5k04nXA5TjLcrFit"
+        "modifiedTime": 1697123740448,
+        "lastModifiedBy": "taH2Rt1bM5s9hS6j"
       },
       "foreground": null,
-      "thumb": "worlds/pf2e-adv-dev/assets/scenes/Eb9T0hOuse8AnyOa-thumb.webp",
+      "thumb": "modules/the-haunted-study/media/images/study_thumb.webp",
       "fogOverlay": null,
       "fogExploredColor": null,
       "fogUnexploredColor": null,
@@ -539,8 +540,8 @@
     "systemVersion": "5.6.2",
     "coreVersion": "11.313",
     "createdTime": 1697122035193,
-    "modifiedTime": 1697122035193,
-    "lastModifiedBy": "5k04nXA5TjLcrFit"
+    "modifiedTime": 1697123761042,
+    "lastModifiedBy": "taH2Rt1bM5s9hS6j"
   },
   "_key": "!adventures!xS9I2zFnyji4QZPd"
 }
