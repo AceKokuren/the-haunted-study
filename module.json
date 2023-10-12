@@ -1,0 +1,30 @@
+{
+  "id": "the-haunted-study",
+  "title": "The Haunted Study",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "AceKokuren",
+      "discord": "acekokuren",
+      "url": "https::github.com/AceKokuren",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "the-haunted-study",
+      "label": "The Haunted Study",
+      "path": "packs/the-haunted-study",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
