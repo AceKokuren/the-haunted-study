@@ -1,0 +1,546 @@
+{
+  "name": "The Haunted Study",
+  "img": null,
+  "caption": "",
+  "sort": 0,
+  "description": "",
+  "actors": [],
+  "combats": [],
+  "items": [],
+  "journal": [],
+  "scenes": [
+    {
+      "name": "The Haunted Study",
+      "_id": "Eb9T0hOuse8AnyOa",
+      "active": true,
+      "navigation": true,
+      "navOrder": 0,
+      "navName": "Study",
+      "background": {
+        "src": "my-stuff/maps/The_Haunted_Study.png",
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0
+      },
+      "foregroundElevation": 20,
+      "width": 2400,
+      "height": 1600,
+      "padding": 0.25,
+      "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+      },
+      "backgroundColor": "#999999",
+      "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+      },
+      "tokenVision": true,
+      "fogExploration": false,
+      "fogReset": 1697121492733,
+      "globalLight": false,
+      "globalLightThreshold": null,
+      "darkness": 0.25,
+      "drawings": [],
+      "tokens": [],
+      "lights": [
+        {
+          "_id": "hKQIb7l5h69kH5AG",
+          "x": 1000,
+          "y": 1200,
+          "rotation": 0,
+          "walls": true,
+          "vision": true,
+          "config": {
+            "alpha": 0.5,
+            "angle": 360,
+            "bright": 15,
+            "coloration": 1,
+            "dim": 25,
+            "attenuation": 0.5,
+            "luminosity": 0.5,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "animation": {
+              "type": "flame",
+              "speed": 4,
+              "intensity": 3,
+              "reverse": false
+            },
+            "darkness": {
+              "min": 0,
+              "max": 1
+            },
+            "color": null
+          },
+          "hidden": false,
+          "flags": {
+            "tagger": {}
+          }
+        }
+      ],
+      "notes": [],
+      "sounds": [],
+      "templates": [],
+      "tiles": [
+        {
+          "texture": {
+            "src": "my-stuff/tiles/Curtains_Closed_Top_Tile.png",
+            "scaleX": 1,
+            "scaleY": 1,
+            "tint": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 1850,
+          "y": 550,
+          "z": 100,
+          "width": 500,
+          "height": 150,
+          "rotation": 0,
+          "alpha": 1,
+          "flags": {
+            "tagger": {
+              "tags": ""
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "click"
+              ],
+              "allowpaused": true,
+              "usealpha": false,
+              "pointer": true,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 100,
+              "fileindex": 0,
+              "actions": [
+                {
+                  "action": "showhide",
+                  "data": {
+                    "entity": {
+                      "id": "tile",
+                      "name": "This Tile"
+                    },
+                    "collection": "tokens",
+                    "hidden": "toggle",
+                    "fade": 0
+                  },
+                  "id": "BLNEL2RbelWIcbmR"
+                }
+              ],
+              "files": []
+            }
+          },
+          "overhead": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "_id": "6JWW8dY54AwBrYaA",
+          "hidden": true,
+          "locked": false
+        },
+        {
+          "texture": {
+            "src": "my-stuff/tiles/Curtains_Closed_Bottom_Tile.png",
+            "scaleX": 1,
+            "scaleY": 1,
+            "tint": null,
+            "offsetX": 0,
+            "offsetY": 0,
+            "rotation": 0
+          },
+          "x": 1850,
+          "y": 1700,
+          "z": 100,
+          "width": 500,
+          "height": 150,
+          "rotation": 0,
+          "alpha": 1,
+          "flags": {
+            "tagger": {
+              "tags": ""
+            },
+            "monks-active-tiles": {
+              "active": true,
+              "record": false,
+              "restriction": "all",
+              "controlled": "all",
+              "trigger": [
+                "",
+                "click"
+              ],
+              "allowpaused": true,
+              "usealpha": false,
+              "pointer": true,
+              "pertoken": false,
+              "minrequired": 0,
+              "cooldown": null,
+              "chance": 100,
+              "fileindex": 0,
+              "actions": [
+                {
+                  "action": "showhide",
+                  "data": {
+                    "entity": {
+                      "id": "tile",
+                      "name": "This Tile"
+                    },
+                    "collection": "tokens",
+                    "hidden": "toggle",
+                    "fade": 0
+                  },
+                  "id": "BLNEL2RbelWIcbmR"
+                }
+              ],
+              "files": []
+            }
+          },
+          "overhead": false,
+          "roof": false,
+          "occlusion": {
+            "mode": 1,
+            "alpha": 0,
+            "radius": null
+          },
+          "video": {
+            "loop": true,
+            "autoplay": true,
+            "volume": 0
+          },
+          "hidden": true,
+          "locked": false,
+          "_id": "CPfvtFguOhg6z4In"
+        }
+      ],
+      "walls": [
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            800,
+            600,
+            1900,
+            600
+          ],
+          "_id": "Fgg1dYcSbUUpHAaL",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            1900,
+            600,
+            2300,
+            600
+          ],
+          "_id": "K5REmIdyKXGVuXGg",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            2300,
+            600,
+            2800,
+            600
+          ],
+          "_id": "9R0CnvcYiZGYZqt6",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            2800,
+            600,
+            2800,
+            1000
+          ],
+          "_id": "BaOab2xn9ifZe6Gm",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            2800,
+            1000,
+            2800,
+            1200
+          ],
+          "_id": "0KVlyN5Uxaxfs1nx",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            2800,
+            1200,
+            2800,
+            1400
+          ],
+          "_id": "Celj2ml7QuG8RXa2",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            2800,
+            1400,
+            2800,
+            1800
+          ],
+          "_id": "38dEXao5AlUD0lfV",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            2800,
+            1800,
+            2300,
+            1800
+          ],
+          "_id": "rtEm6AUjiUE6PlXF",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            2300,
+            1800,
+            1900,
+            1800
+          ],
+          "_id": "YgqlbepXuw8cvnTg",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            1900,
+            1800,
+            800,
+            1800
+          ],
+          "_id": "bXnDy9xaaExPKPgq",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        },
+        {
+          "light": 20,
+          "sight": 20,
+          "sound": 20,
+          "move": 20,
+          "c": [
+            800,
+            1800,
+            800,
+            600
+          ],
+          "_id": "gqHLHgFpMSVP4Yu5",
+          "dir": 0,
+          "door": 0,
+          "ds": 0,
+          "threshold": {
+            "light": null,
+            "sight": null,
+            "sound": null,
+            "attenuation": false
+          },
+          "flags": {}
+        }
+      ],
+      "playlist": null,
+      "playlistSound": null,
+      "journal": null,
+      "journalEntryPage": null,
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "5k04nXA5TjLcrFit": 3
+      },
+      "flags": {
+        "pf2e": {
+          "rulesBasedVision": null,
+          "hearingRange": null
+        },
+        "core": {
+          "sourceId": "Scene.Eb9T0hOuse8AnyOa"
+        }
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.6.2",
+        "coreVersion": "11.313",
+        "createdTime": 1697121492735,
+        "modifiedTime": 1697121908290,
+        "lastModifiedBy": "5k04nXA5TjLcrFit"
+      },
+      "foreground": null,
+      "thumb": "worlds/pf2e-adv-dev/assets/scenes/Eb9T0hOuse8AnyOa-thumb.webp",
+      "fogOverlay": null,
+      "fogExploredColor": null,
+      "fogUnexploredColor": null,
+      "weather": ""
+    }
+  ],
+  "tables": [],
+  "macros": [],
+  "cards": [],
+  "playlists": [],
+  "folders": [],
+  "_id": "xS9I2zFnyji4QZPd",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.6.2",
+    "coreVersion": "11.313",
+    "createdTime": 1697122035193,
+    "modifiedTime": 1697122035193,
+    "lastModifiedBy": "5k04nXA5TjLcrFit"
+  },
+  "_key": "!adventures!xS9I2zFnyji4QZPd"
+}
