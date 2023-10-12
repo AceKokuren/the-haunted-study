@@ -14,12 +14,37 @@
       "flags": {}
     }
   ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json"
+      },
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json"
+      }
+    ]
+  },
   "packs": [
     {
-      "name": "the-haunted-study",
-      "label": "The Haunted Study",
-      "path": "packs/the-haunted-study",
+      "name": "the-haunted-study-pf2e",
+      "label": "The Haunted Study PF2E",
+      "path": "packs/the-haunted-study-pf2e",
       "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "the-haunted-study-dnd5e",
+      "label": "The Haunted Study DND5E",
+      "path": "packs/the-haunted-study-dnd5e",
+      "type": "Adventure",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
